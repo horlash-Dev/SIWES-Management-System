@@ -1,0 +1,8 @@
+admin login
+is 
+admin@siwes.com
+passowrd is : adminpass
+
+note
+lecturer is to login with 
+siwes.app.is email string b4 @ symbol.

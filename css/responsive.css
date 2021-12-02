@@ -1,0 +1,203 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 07/06/2018.
+    Theme Name   : Conis.
+    Description  : Conis - Business And Finance HTML Template
+    Version      : 1.0.
+    Author       : @CreativeGigs.
+    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
+   
+*/
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 1650px) and (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) {
+  .about-us-section .text-wrapper {padding-left: 0;}
+  .contact-us-form {padding-right: 0;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .latest-update .single-update-post h4 a {font-size: 24px;line-height: 38px;}
+  .inner-banner .overlay {padding: 120px 0 110px 0;}
+  .testimonial-section-two .main-content-box {padding-right: 20px;}
+  .service-details .box-wrapper {padding: 0 50px;}
+ /* .home-about-section .left-side {width: 40%;}*/
+  .home-about-section .right-side {width: 100%;}
+  .our-service-two .single-service {padding-left: 20px;}
+  .testimonial-section .text p {font-weight: 20px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (max-width: 991px) {
+  .theme-title p {font-size: 18px;}
+  .theme-title a {position: static;margin-top: 25px;}
+  .main-menu-wrapper .logo,.main-menu-wrapper .right-widget {position: relative; z-index: 99;}
+  .main-menu-wrapper .right-widget  {margin-right:70px;}
+  #mega-menu-wrapper {position: absolute;left:15px;right:15px;top:0;z-index: 9;}
+  .main-menu-wrapper .right-widget>ul>li {line-height: 60px;}
+  .main-menu-wrapper .logo {margin-top: 11px;}
+  .main-menu-wrapper .right-widget .cart-icon a span {top:26px;}
+  #mega-menu-wrapper .nav>li>a:before {display: none;}
+  .our-service .theme-title br,.feature-banner .theme-title h2 br {display: none;}
+  .feature-banner .single-box h2 {font-size: 30px;}
+  .feature-banner .single-box p {font-size: 16px;}
+  .feature-banner .theme-title h2 {margin-bottom: 65px;}
+  .portfolio-details .details-text .portfolio-info-list ul {margin-top: 70px;}
+  .theme-footer .subscribe-form input[type="submit"] {width: 180px;display: block;margin: 0 auto;}
+  .theme-footer .footer-bottom-wrapper [class*="col-"] {margin-bottom: 50px;}
+  .theme-footer .copyright-wrapper {padding-top: 10px;}
+  .inner-banner .overlay {padding: 100px 0;}
+  .about-us-section .title {text-align: left;margin-bottom: 40px;}
+  .inner-banner,.contact-us-form {margin-bottom: 90px;}
+  .our-service.service-inner-page .single-service .text {padding-left: 15px;padding-right: 15px;}
+  .service-details .box-wrapper {padding: 0;}
+  .service-details .box-wrapper .title h3,.service-details .box-wrapper .title .loan {float: none !important;}
+  .service-details .box-wrapper .title h3 {margin: 0 0 25px 0;}
+  .portfolio-details .details-text {padding: 50px 0 80px 0;}
+  .blog-sidebar {margin-top: 80px;}
+  .map-canvas {margin-top: 100px;}
+  .home-two-banner #theme-main-banner .camera_caption h1 {padding-top: 0;}
+  .theme-main-header .top-header .left-widget .social-icon {display: none;}
+  .main-menu-wrapper .right-widget .search-option .dropdown-menu {right: -103px !important;}
+  .home-about-section .left-side {display: none;}
+  .home-about-section>.float-left {width: 100%;}
+  .home-about-section .right-side .opacity .main-content {padding-left: 15px;padding-right: 15px;margin: 0 auto;float: none !important;}
+  .consultation-form .form-wrapper {padding: 50px 0 0 0;}
+  .latest-update .theme-title h2 {margin-bottom: 0;}
+  .latest-update .theme-title {margin-bottom: 40px;}
+} 
+/*(max-width: 991px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-about-section .right-side .opacity .main-content {max-width: 720px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .theme-menu-wrapper {top:0;}
+  .theme-menu-wrapper .top-header .greeting-text,.theme-menu-wrapper .top-header>ul {float: none !important;text-align: center;}
+  .theme-title h2 {font-size: 30px;line-height: 45px;}
+  .theme-title p {margin-top: 20px;}
+  .home-about-section {margin-top: 0;}
+  .top-feature,.feature-banner,.home-about-section {margin-bottom: 75px;}
+  .theme-footer .content-wrapper {padding-top: 80px;}
+  .theme-footer h2,.error-page {margin-bottom: 50px;}
+  .feature-banner .opacity {padding: 85px 0 40px 0;}
+  .latest-update,.about-us-section .image-gallery,.testimonial-inner-page,.faq-form {padding: 75px 0 90px 0;}
+  .latest-update .theme-title h2 {margin-bottom: 0;}
+  .get-loan-form {width: 88%;}
+  .get-loan-form form:before {top:-5%;left:-5%;}
+  .get-loan-form form input[type="submit"] {left:0;height: 100px;bottom: 0;}
+  .get-loan-form form,.our-blog {padding-bottom: 100px;}
+  .home-two-banner {margin-bottom: 90px;}
+  .about-us-section .title br,.popular-faq .theme-title p br {display: none;}
+  .about-us-section .title {font-size: 35px;line-height: 45px;}
+  .our-service.service-inner-page,.service-details,.our-portfolio {padding-bottom: 30px;}
+  .theme-footer .footer-bottom-wrapper h4 {margin-bottom: 15px;}
+  .service-details .box-wrapper .title {padding-top: 40px;}
+  .service-details .box-wrapper .title h3 {font-size: 30px;}
+  .service-details .box-wrapper .top-text h4 {font-size: 20px;line-height: 35px;}
+  .service-details .box-wrapper .middle-text {padding: 30px 0 10px 0;margin: 25px 0 30px 0;}
+  .error-page form {width: 95%;margin-top: 25px;}
+  .portfolio-details .image-gallery img {margin-top:20px;}
+  .portfolio-details .details-text .text-left-side h2 {font-size: 30px;line-height: 45px;}
+  .blog-details .mark-text h2 {font-size: 25px;line-height: 35px;}
+  .blog-details .mark-text:before {left:0;}
+  .blog-details .mark-text {padding-left: 30px;}
+  .blog-details .share-option {margin-bottom: 75px;}
+  #theme-main-banner .camera_caption h1 br,#theme-main-banner .camera_caption p br,
+  .theme-main-header .top-header .right-widget>li.quote a,.theme-main-header .top-header .right-widget>li a i {width: 40%; display: inline-block; justify-content: center;}
+  .theme-main-header .top-header .right-widget>li a {padding: 0 25px;}
+  .our-service-two .single-service {padding-left: 15px;}
+  .testimonial-section {margin-top: 40px;}
+  .consultation-form .form-wrapper textarea {margin-bottom: 25px;}
+  .consultation-form .theme-title h2 {padding-bottom: 15px;}
+}
+/*(max-width: 767px)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .top-feature .single-feature .text {width: 100%;padding: 30px 0 0 0;}
+  .top-feature .single-feature .text h4 a,.our-service .single-service .text h4 a {font-size: 20px;}
+  .latest-update .single-update-post h4 a {font-size: 18px;line-height: 32px;margin-top: 0;}
+  .latest-update .single-update-post .count {font-size: 70px;}
+  .latest-update .single-update-post {padding-top: 40px;}
+  .mixitUp-menu ul li {margin: 0;font-size: 14px;}
+  #theme-main-banner .camera_caption h1 {font-size: 50px;padding-top: 130px;}
+  .banner-one,.banner-two  {height: 750px !important;}
+  #theme-main-banner .camera_caption h1 {line-height: 62px;}
+}
+/*(min-width: 576px) and (max-width: 767px)*/
+
+@media (max-width: 575px) {
+  .theme-menu-wrapper .top-header ul li:first-child {display: block;margin: 0 0 8px 0;}
+  .theme-menu-wrapper .top-header ul li a {margin: 0 7px;}
+  .top-feature .single-feature {padding: 30px 0;}
+  .top-feature {padding: 20px 0;}
+  .theme-footer .copyright-wrapper p,.theme-footer .copyright-wrapper ul {text-align: center;}
+  .latest-update .single-update-post .count {font-size: 100px;line-height: 100px;}
+  .latest-update .single-update-post {padding-top: 50px;}
+  .latest-update .single-update-post h4 a {margin: 5px 0 10px 0;}
+  .get-loan-form form {padding-left: 15px;padding-right: 15px;}
+  .inner-banner .overlay h2 {font-size: 40px;}
+  .our-team .theme-title {padding-bottom: 50px;}
+  .testimonial-section-two .main-content-box {padding-left: 15px;padding-right: 15px;}
+  .testimonial-section-two .main-content-box .fa {right: 15px;bottom: 5px;}
+  .theme-menu-wrapper .top-header .greeting-text {font-size: 15px;}
+  .theme-menu-wrapper .top-header ul li:first-child a {font-size: 20px;}
+  .theme-menu-wrapper .top-header ul li a {font-size: 18px;}
+  .mixitUp-menu ul {border: none;}
+  .mixitUp-menu {margin-bottom: 50px;}
+  .mixitUp-menu ul li {margin: 0 2px 10px 2px;padding-bottom: 10px;font-size: 14px;}
+  .related-project .owl-theme .owl-nav {top:-35px;}
+  .contact-us .contact-address h2 {font-size: 30px;line-height: 45px;margin: 0;}
+  .banner-one {height: 500px !important;}
+  #theme-main-banner .camera_caption h1 {font-size: 30px;line-height: 45px;}
+  .home-two-banner #theme-main-banner .camera_caption h1 {font-size: 32px;line-height: 48px;}
+  #theme-main-banner .camera_caption p,.home-two-banner #theme-main-banner .camera_caption p {font-size: 16px;line-height: 32px;padding: 20px 0 15px 0;}
+  .theme-main-header .top-header .right-widget>li {width: 100%;}
+  .theme-main-header .top-header .float-left,.theme-main-header .top-header .float-right {width: 100%;text-align: center;}
+  .theme-main-header .top-header .right-widget>li a {border:none;}
+  .testimonial-section .author-img {float: none !important;margin: 0 auto;}
+  .testimonial-section .text {width: 100%; float: none !important;padding: 40px 0 0 0;}
+  .testimonial-section,.consultation-form {padding: 60px 0 70px 0;}
+  .testimonial-section .theme-title {padding-bottom: 60px;}
+  .consultation-form .form-wrapper textarea {height: 200px;}
+  .theme-main-header .top-header .right-widget>li {line-height: 35px;}
+  .theme-main-header .top-header {padding-bottom: 10px;}
+}
+/*(max-width: 575px)*/
+
+@media (max-width: 650px) {
+    #success, #error {
+        width: 86%;
+        height: auto;
+        top: calc(50% - 50px);
+        left: 7%;
+        padding: 30px 10px;
+    }
+    
+}
+@media (max-width: 500px) {
+  .our-team .single-team-member .text-wrapper {width: 100%;padding: 25px 0 0 0;}
+}
+
+@media (max-width: 450px) {
+  .our-service [class*="col-"] { -ms-flex: 0 0 100%;-webkit-box-flex: 0;flex: 0 0 100%;max-width: 100%;}
+  .blog-details .share-option ul {float: none !important;}
+  .blog-details .public-comment-area .comment button {position: static;margin-top: 15px;}
+}
+
+@media (max-width: 400px) {
+  .top-feature .single-feature .text h4 a {font-size: 18px;margin-top: 0;}
+  .main-menu-wrapper .logo {width: 40%;margin-top: 15px;}
+}
